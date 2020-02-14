@@ -1,0 +1,21 @@
+body{background-image: url('../images/background.png');background-size: cover;background-position: center;}
+section{min-height: 100vh;padding: 2rem 6%;}
+.img-logo{display: block;margin: auto;max-width: 100%;}
+form{max-width: 320px;width: 100%;margin: auto;padding: 1.5rem 1.5rem 2rem;text-align: center;border-radius: 10px;border: 3px solid #ffffff40;background: linear-gradient(to right, #ffffff10 , #ffffff80);}
+form .login-title{color: #fff;font-size: 1.5rem;}
+form .form-control,form button{height: 3rem;text-align: center;border-radius: 6px;}
+form .p-msg{margin-top: .5rem;color: #fff;}
+form .btn{border-radius: 32px;border: none;border-radius: 32px;background: linear-gradient(to right, #aa1c00 , #ffbf7f);}
+
+@media (min-width: 768px) and (orientation: landscape){
+    section>div{-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
+}
+@media (max-width: 767px) and (max-height: 767px){
+    :root{font-size: 12px;}
+}
+@media (max-width: 767px){
+    section>div{-ms-flex: 0 0 100%;flex: 0 0 100%;}
+}
+@media (orientation: portrait) {
+    section>div{-ms-flex: 0 0 100%;flex: 0 0 100%;}
+}
